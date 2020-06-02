@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+     /*en-tête de la page*/
+
+a{
+  text-decoration: none;
+}
+
+header h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.5em;
+	text-align: center;
+	padding: 35px;
+	background-color: rgba(87, 156, 135, 0.9);
+	color: rgb(253, 203, 70);
+}
+
+/*font-family: 'Caveat', cursive;
+font-family: 'Croissant One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Devonshire', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Source Serif Pro', serif;*/
+
+     /*contenu de ma page*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*menu la note enchantée*/
+.menu1{
+	background-color: #fcdfdb;
+	height: 400px;
+	width: 300px;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height : 1.5;
+}
+
+.menu1 i{
+	background: linear-gradient(to right, rgba(243,109,104,1) 0%,rgba(243,109,104,1) 48%,rgba(247,143,106,1) 100%);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+}
+
+.menu1 h3{
+	color: #3c1218;
+	font-family: 'Devonshire', cursive;
+	font-size: 1.8em;
+}
+
+.menu1 h2{
+	color: #3c1218;
+	font-family: 'Caveat', cursive;
+	font-size: 2.2em;
+}
+
+
+/*menu le chic à la française*/
+.menu2{
+	background-color: #fff5fe;
+	height: 400px;
+	width: 300px;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height : 1.5;
+	
+}
+
+
+.menu2 h3{
+	background: linear-gradient(to right, #c77529 0%,#c85ec7 48%,#a849a3 100%);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+    font-family: 'Croissant One', cursive;
+    font-size: 1.2em;
+}
+
+.menu2 h2{
+	
+	font-family: 'Source Serif Pro', serif;
+	font-size: 2.2em;
+	color: #d8852e;
+}
+
+/*menu le délice des papilles*/
+.menu3{
+	background-color: #f9f9f9;
+	height: 400px;
+	width: 300px;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	margin: 40px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height : 1.5;		
+}
+
+.menu3 h3{
+    background: linear-gradient(to right, rgba(4,49,223,1) 0%,rgba(27,145,250,1) 48%,rgba(59,124,221,1) 100%);
+    -webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7em;
+}
+
+.menu3 h2{
+	color: #0887fb;
+	font-size: 2.2em;
+	font-family: 'Architects Daughter', cursive;
+}
+
+/*menu la palette du goût*/
+.menu4{
+	background-color: #fdfffd
+	height: 400px;
+	width: 300px;
+	box-shadow: 0 0 10px lightgray;
+	-webkit-box-shadow: 0 0 10px lightgray; 
+	-moz-box-shadow: 0 0 10px lightgray; 
+	margin: 40px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height : 1.5;
+}
+
+.menu4 h3{
+    background: linear-gradient(to right, rgba(66,151,60,1) 0%,rgba(179,245,121,1) 48%,rgba(200,254,148,1) 100%); 
+    -webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+
+}
+
+.menu4 h2{
+	color: #72bf56;
+	font-size: 2.2em;
+	font-family: 'Architects Daughter', cursive;	
+}
