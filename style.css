@@ -10,8 +10,7 @@ html {
 
 body {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-
+  font-family: 'Raleway', sans-serif;
 }
      /*en-tête de la page*/
 
@@ -33,9 +32,11 @@ font-family: 'Croissant One', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Devonshire', cursive;
 font-family: 'Kaushan Script', cursive;
-font-family: 'Source Serif Pro', serif;*/
+font-family: 'Source Serif Pro', serif;
 
-     /*contenu de ma page*/
+*/
+
+     /*contenu de ma page principale*/
 
 main{
     display: flex;
@@ -180,4 +181,52 @@ main{
 	color: #72bf56;
 	font-size: 2.2em;
 	font-family: 'Architects Daughter', cursive;	
+}
+
+/*prochainement*/
+.soon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #579c87;
+	color: #fdcb46;
+	border-radius: 10px;
+    width: 20%;
+    padding: 10px 10px 10px 10px ;
+    margin-bottom: 90px;/**/
+    display: flex;
+    justify-content: center;
+
+}
+
+.point{
+	background-color: #fdcb46;
+	height: 6px;
+	width: 6px;
+	border-radius: 3em;/**/
+	margin: 18px 0 0 10px;
+
+
+
+}
+
+/*footer*/
+footer{
+	background-color: #579c87;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+}
+
+footer h2{
+    color: #fdcb46;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.list{
+	display: flex;
+	justify-content: space-between;
 }
