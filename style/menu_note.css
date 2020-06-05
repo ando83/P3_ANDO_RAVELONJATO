@@ -1,3 +1,4 @@
+/*titre du menu*/
 
 .titre_note{
 	font-size: 1.8em;
@@ -106,7 +107,7 @@ main{
 @media all and (max-width: 767.98px){
 
 	main{
-		width: 100%;
+		width: 90%;
 	}
 
 	.ensemble_note{
