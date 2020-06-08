@@ -1,0 +1,88 @@
+/* AGRANDISSEMENT MENU GLOBAL */
+
+.zoom_menu:hover{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-webkit-animation: agrandir 750ms ease-in-out;
+    -webkit-animation-delay: 150ms;
+    opacity: 1;
+
+
+}
+
+@-webkit-keyframes agrandir {
+    0% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        -webkit-transform: scale(1.15);
+        opacity: 0.05;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+
+/* ANIMATION SOULIGNEMENT TITRE MENUnimation*/
+
+/*Soulignement menu la note enchantée*/
+.souligne_note {
+ padding-bottom: 5px;
+ display:inline-block;
+ background: linear-gradient(to top, rgba(61, 19, 25, 0.8)0%, rgba(61, 19, 25, 0.9)8%, transparent 5px)no-repeat;  
+ background: -webkit-linear-gradient(to top, rgba(61, 19, 25, 0.8)0%, rgba(61, 19, 25, 0.9)8%, transparent 5px)no-repeat;  
+ background-size: 0% 100%;
+ transition: background-size 0.4s;
+}
+
+.souligne_note:hover {
+ background-size: 100% 100%;
+}
+
+/*Soulignement menu chic à la française*/
+.souligne_chic {
+ padding-bottom: 5px;
+ display:inline-block;
+ background: linear-gradient(to top, #a56799,#6e4ccc,#c67412,transparent 5px)no-repeat;
+ background: -webkit-linear-gradient(to top, #a56799,#6e4ccc,#c67412,transparent 5px)no-repeat;
+ background-size: 0% 100%;
+ transition: background-size 0.4s;
+}
+
+.souligne_chic:hover {
+ background-size: 100% 100%;
+}
+
+/*Soulignement menu délice des papilles*/
+.souligne_delice {
+ padding-bottom: 5px;
+ display:inline-block;
+ background: linear-gradient(to top, rgba(2, 40, 221, 0.8)0%, rgba(2, 40, 221, 0.9)8%, transparent 5px)no-repeat;  
+ background: -webkit-linear-gradient(to top, rgba(2, 40, 221, 0.8)0%, rgba(2, 40, 221, 0.9)8%, transparent 5px)no-repeat;  
+ background-size: 0% 100%;
+ transition: background-size 0.4s;
+}
+
+.souligne_delice:hover {
+ background-size: 100% 100%;
+}
+
+/*Soulignement menu palette du goût*/
+.souligne_palette {
+ padding-bottom: 5px;
+ display:inline-block;
+ background: linear-gradient(to top, rgba(72, 155, 64, 0.8)0%, rgba(72, 155, 64, 0.9)8%, transparent 5px)no-repeat;  
+ background: -webkit-linear-gradient(to top, rgba(72, 155, 64, 0.8)0%, rgba(72, 155, 64, 0.9)8%, transparent 5px)no-repeat;  
+ background-size: 0% 100%;
+ transition: background-size 0.4s;
+}
+
+.souligne_palette:hover {
+ background-size: 100% 100%;
+}

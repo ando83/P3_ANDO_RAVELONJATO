@@ -70,8 +70,12 @@ section a{
 
 #menu_un i{
 	background: linear-gradient(to right, rgba(243,109,104,1) 0%,rgba(243,109,104,1) 48%,rgba(247,143,106,1) 100%);
+	text-fill-color:transparent;
+	background-clip:text;
 	-webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-moz-background-clip:text;
 }
 
 #menu_un h3{
@@ -105,8 +109,12 @@ section a{
 
 #menu_deux h3{
 	background: linear-gradient(to right, #c77529 0%,#c85ec7 48%,#a849a3 100%);
+	text-fill-color:transparent;
+	background-clip:text;
 	-webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-moz-background-clip:text;
     font-family: 'Croissant One', cursive;
     font-size: 1.2em;
 }
@@ -135,8 +143,12 @@ section a{
 
  #menu_trois h3{
     background: linear-gradient(to right, rgba(4,49,223,1) 0%,rgba(27,145,250,1) 48%,rgba(59,124,221,1) 100%);
+    text-fill-color:transparent;
+	background-clip:text;
     -webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-moz-background-clip:text;
     font-family: 'Dancing Script', cursive;
     font-size: 1.7em;
 }
@@ -164,8 +176,12 @@ section a{
 
  #menu_quatre h3{
     background: linear-gradient(to right, rgba(66,151,60,1) 0%,rgba(179,245,121,1) 48%,rgba(200,254,148,1) 100%); 
+    text-fill-color:transparent;
+	background-clip:text;
     -webkit-text-fill-color:transparent;
 	-webkit-background-clip:text;
+	-moz-text-fill-color:transparent;
+	-moz-background-clip:text;
     font-family: 'Kaushan Script', cursive;
     font-size: 1.5em;
 }
@@ -178,7 +194,7 @@ section a{
 
 /*prochainement*/
 
-.soon{
+.ensemble_pt{
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -223,11 +239,11 @@ footer h2{
 
  @media all and (min-width: 768px) and (max-width: 1390px){
  
- .soon{
+ .ensemble_pt{
     min-width: 30%;
    }
  
- .soon h2{
+ .ensemble_pt h2{
    font-size: 1.5em;
  }
 }
@@ -248,11 +264,11 @@ footer h2{
 	width: 250px;
   }
 
-  .soon{
+  .ensemble_pt{
    min-width: 40%;
   }
 
-  .soon h2{
+  .ensemble_pt h2{
   	font-size: 1.5em;
   }
 
@@ -263,7 +279,7 @@ footer h2{
 }
 @media all and (max-width: 375px){
 
-  .soon{
+  .ensemble_pt{
     min-width: 60%;
    }
   
