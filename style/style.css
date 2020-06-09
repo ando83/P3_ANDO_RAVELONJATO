@@ -151,6 +151,7 @@ section a{
 	-moz-background-clip:text;
     font-family: 'Dancing Script', cursive;
     font-size: 1.7em;
+    padding: 0 0 0 2px;
 }
 
  #menu_trois h2{
@@ -206,13 +207,13 @@ section a{
     margin: auto;
     margin-bottom: 90px;
 }
-
+    
 .point{
-	background-color: #fdcb46;
-	height: 6px;
-	width: 6px;
-	border-radius: 3em;
-	margin: 0 0 0 6px;
+    background-color: #fdcb46;
+    height: 6px;
+    width: 6px;
+    border-radius: 3em;
+    margin: 0 0 0 6px;
 }
 
 /*footer*/
@@ -221,17 +222,27 @@ footer{
 	background-color: #579c87;
 	position: fixed;
 	bottom: 0;
-    height: 60px;
+    height: 8%;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+
 }
 
-footer h2{
-    color: #fdcb46; 
-    padding: 0 20px 0 20px;  
+.foot{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+
 }
+
+footer a{
+    color: #fdcb46; 
+    font-size: 1.2em;
+     
+}
+
 
 
 
@@ -252,6 +263,15 @@ footer h2{
 
   body{
   	font-size: 0.8em;
+  }
+
+  header{
+  
+	height: 80px;
+  }
+
+  .titre{
+  	font-size:1.7em;
   }
 
   .menu{
@@ -276,6 +296,10 @@ footer h2{
   	margin-top: 10px;
   }
 
+  .foot h2{
+  	font-size: 1em;
+  }
+
 }
 @media all and (max-width: 375px){
 
@@ -283,14 +307,22 @@ footer h2{
     min-width: 60%;
    }
   
-  footer{
+  /*footer{
   	display: flex;
   	flex-direction: column;
   	justify-content: space-around;
+  }*/
+
+  .foot h2{
+  	font-size: .8em;
   }
 
-  footer h2{
-  	font-size: 1.3em;
+  .foot{
+  	display:flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	align-items: center;
+
   }
 }
 
