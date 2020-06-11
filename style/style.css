@@ -3,8 +3,9 @@
     margin: 0;
 }
 
-html, body {
+html,body {
   width: 100%;
+  
   font-family: 'Raleway', sans-serif;
 }
 
@@ -39,6 +40,7 @@ main{
      align-items: center;
      overflow: auto;
      overflow-x: hidden;
+     min-height: calc(100vh-70%);
 }
 
 section a{
@@ -49,6 +51,16 @@ section a{
 
 .menu{
 	display: flex;
+
+}
+
+.zoom_menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*menu la note enchantée*/
@@ -105,6 +117,7 @@ section a{
 	align-items: center;
 	flex-direction: column;
 	line-height : 1.5;	
+	word-spacing: -.3ch;
 }
 
 #menu_deux h3{
@@ -138,7 +151,7 @@ section a{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	line-height : 1.5;		
+	line-height : 1.5;	
 }
 
  #menu_trois h3{
@@ -203,9 +216,9 @@ section a{
     color: #fdcb46;;
     border-radius: 13px;
     width: 20%;
-    padding: 16px;
-    margin: auto;
-    margin-bottom: 90px;
+    padding: 13px;
+    margin: 0px 0 70px 0;
+
 }
     
 .point{
@@ -222,12 +235,12 @@ footer{
 	background-color: #579c87;
 	position: fixed;
 	bottom: 0;
-    height: 8%;
+    height: 50px;/*7%*/
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+	
 }
 
 .foot{
@@ -239,7 +252,6 @@ footer{
 
 footer a{
     color: #fdcb46; 
-    font-size: 1.2em;
      
 }
 
@@ -248,10 +260,10 @@ footer a{
 
 /*Les Mediaqueries*/
 
- @media all and (min-width: 768px) and (max-width: 1390px){
+ @media screen and (min-width: 768px) and (max-width: 1390px){
  
  .ensemble_pt{
-    min-width: 30%;
+    width: 30%;
    }
  
  .ensemble_pt h2{
@@ -259,14 +271,13 @@ footer a{
  }
 }
 
-@media all and (max-width: 767.98px){
+@media screen and (max-width: 767.98px){
 
   body{
   	font-size: 0.8em;
   }
 
   header{
-  
 	height: 80px;
   }
 
@@ -278,52 +289,45 @@ footer a{
 	display: flex;
 	flex-direction: column;
    }
-  
+
+   #menu_trois{/**/
+   	margin-bottom: -5px;
+	
+   }
   section a{
   	height: 350px;
 	width: 250px;
   }
 
   .ensemble_pt{
-   min-width: 40%;
-  }
+   width: 50%;
+   margin-bottom: 80px;
 
-  .ensemble_pt h2{
-  	font-size: 1.5em;
   }
 
   .point{
   	margin-top: 10px;
   }
 
-  .foot h2{
-  	font-size: 1em;
-  }
+  
 
 }
-@media all and (max-width: 375px){
+@media screen and (max-width: 425px){
 
   .ensemble_pt{
-    min-width: 60%;
+    width: 60%;
+    margin-bottom: 60px;
    }
-  
-  /*footer{
-  	display: flex;
-  	flex-direction: column;
-  	justify-content: space-around;
-  }*/
+
+  .ensemble_pt h2{
+  	font-size:1em;
+  } 
 
   .foot h2{
-  	font-size: .8em;
+  	font-size:1em;
   }
 
-  .foot{
-  	display:flex;
-  	justify-content: center;
-  	flex-direction: column;
-  	align-items: center;
-
-  }
+ 
 }
 
 
