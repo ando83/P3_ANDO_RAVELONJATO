@@ -39,7 +39,7 @@ main{
      align-items: center;
      overflow: auto;
      overflow-x: hidden;
-     min-height: calc(100vh-70%);
+     min-height: calc(100vh-70px);
 }
 
 section a{
@@ -175,7 +175,7 @@ section a{
 /*menu la palette du goût*/
 
  #menu_quatre{
-	background-color: #fdfffd
+	background-color: #fdfffd;
 	box-shadow: 0 0 10px lightgray;
 	-webkit-box-shadow: 0 0 10px lightgray; 
 	-moz-box-shadow: 0 0 10px lightgray; 
